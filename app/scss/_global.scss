@@ -19,6 +19,10 @@ body {
   background-size: contain;
   background-position: center top;
 
+  @include breakpoint-up(medium) {
+    background-image: url("../../images/pattern-background-desktop.svg");
+  }
+
   .component {
     width: 90%;
     margin: 4.375rem auto;
@@ -27,6 +31,10 @@ body {
     overflow: hidden;
     color: $desaturatedBlue;
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+
+    @include breakpoint-up(medium) {
+      width: 28.125rem;
+    }
   }
 
   .p {

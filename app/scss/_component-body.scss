@@ -2,6 +2,10 @@
   padding: 1rem 2rem;
   text-align: center;
 
+  @include breakpoint-up(medium) {
+    padding: 1rem 2.625rem;
+  }
+
   .order-summary {
     &__title {
       color: $darkBlue;
