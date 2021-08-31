@@ -14,7 +14,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 1.5625rem auto;
-    padding: 1rem;
     background-color: $veryPaleBlue;
     border-radius: 10px;
 
@@ -25,7 +24,7 @@
 
     &__pricing {
       text-align: left;
-      padding-left: 1rem;
+      // padding-left: 1rem;
 
       span {
         display: block;
@@ -79,7 +78,6 @@
       width: 100%;
       background-color: $brightBlue;
       margin-bottom: 1rem;
-      padding: 0.875rem 0;
       color: #fff;
       border-radius: 10px;
       box-shadow: 0px 25px 10px $paleBlue;
@@ -90,7 +88,6 @@
     }
 
     &__cancel {
-      padding: 1rem 0;
       color: $desaturatedBlue;
       &:hover {
         color: $darkBlue;
