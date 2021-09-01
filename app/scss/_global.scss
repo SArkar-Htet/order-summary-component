@@ -18,6 +18,10 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 
   @include breakpoint-up(medium) {
     background-image: url("../../images/pattern-background-desktop.svg");
@@ -25,7 +29,6 @@ body {
 
   .component {
     width: 90%;
-    margin: 4.375rem auto;
     background-color: #fff;
     border-radius: 1.25rem;
     overflow: hidden;
