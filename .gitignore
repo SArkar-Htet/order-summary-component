@@ -4,7 +4,6 @@
 *.xd
 .DS_Store
 .prettierignore
-/design/
 style-guide.md
 README-template.md
 *.map
